@@ -1,0 +1,261 @@
+,,,
+,Instructions,,
+,fecal,,
+,"The column ""Diagnoses"" lists the commonly reported diagnoses.  The column ""Applicable Under Title 17 Category"" maps each of the diagnoses into one of the eight categories as per the Title 17 statute.  ",,
+,"Any diagnosis that falls under one the eight categories is reportable as an unplanned hospitalization under the Title 17 statute.  Any diagnosis that does not fall under one of these eight categories is not reportable as ""unplanned hospitalization."" ",,
+,,,
+,The eight categories under the Title 17 statute are: ,,
+,"1. Respiratory illness, including but not limited to asthma; tuberculosis; and chronic obstructive pulmonary disease;
+2. Seizure-related;
+3. Cardiac-related, including but not limited to, congestive heart failure; hypertension; and angina;
+4. Internal infections, including but not limited to, ear, nose and throat; gastrointestinal; kidney; dental; pelvic, or urinary tract;
+5. Diabetes, including diabetes-related complications;
+6. Wound/skin care, including not limited to, cellulitis and decubitus;
+7. Nutritional deficiencies, including but not limited to, anemia and dehydration; or 
+8. Involuntary psychiatric admission.
+",,
+,,,
+,The diagnoses highlighted in blue font are those where we have reached a consensus during the Oct 11th call,,
+,,,
+,Mapping from Clinical Conditions Categories to Title 17,,
+,,,
+,Group,Diagnoses,Applicable Under Title 17 Category
+,,,
+,Infectious and Parasitic  ,,
+,Infectious and Parasitic  ,HIV/AIDS  ,Internal infections
+,Infectious and Parasitic  ,Septicemia/Shock  ,Internal infections
+,Infectious and Parasitic  ,Central Nervous System Infection,Internal infections
+,Infectious and Parasitic  ,Non-pulmonary Tuberculosis  ,Internal infections
+,Infectious and Parasitic  ,Tuberculosis/Pulmonary tuberculosis,Respiratory illness
+,Infectious and Parasitic  ,Opportunistic Infections  ,Internal infections
+,Infectious and Parasitic  ,Other Infectious Diseases  ,Internal infections
+,,,
+,Malignant Neoplasm,,
+,Malignant Neoplasm,Metastatic Cancer and Acute Leukemia ,Not reportable as unplanned hospitalization
+,Malignant Neoplasm,Lung/Upper Digestive/Other Severe Cancer  ,Not reportable as unplanned hospitalization
+,Malignant Neoplasm,Lymphatic/Head/Neck/Brain/Major Cancer ,Not reportable as unplanned hospitalization
+,Malignant Neoplasm,Breast/Prostate/Colorectal/Other Cancer,Not reportable as unplanned hospitalization
+,Malignant Neoplasm,Other Respiratory and Heart Neoplasms  ,Not reportable as unplanned hospitalization
+,Malignant Neoplasm,Other disgestive and Urinary Neoplasms ,Not reportable as unplanned hospitalization
+,,,
+,Benign/In Situ/Uncertain Neoplasm ,,
+,Benign/In Situ/Uncertain Neoplasm ,Other Neoplasms  ,Not reportable as unplanned hospitalization
+,Benign/In Situ/Uncertain Neoplasm ,"Benign Neoplasms of Skin, Breast, Eye  ",Not reportable as unplanned hospitalization
+,,,
+,Diabetes,,
+,Diabetes,Diabetes with Renal Manifestation,Diabetes
+,Diabetes,Diabetes with Neurological/Peripheral Circulatory Manifestation,Diabetes
+,Diabetes,Diabetes with Acute Complications  ,Diabetes
+,Diabetes,Diab with Ophthalmologic Manifestation,Diabetes
+,Diabetes,Diabetes with No/Unspecified complications,Diabetes
+,Diabetes,Type I Diabetes Mellitus  ,Diabetes
+,,,
+,Nutritional and Metabolic,,
+,Nutritional and Metabolic,Protein-Calorie Malnutrition  ,Nutritional Deficiency
+,Nutritional and Metabolic,Other Significant Endocrine/Metabolic ,Nutritional Deficiency
+,Nutritional and Metabolic,Fluid/Electrolyte/Acid-Base Balance/dehydration,Nutritional Deficiency
+,Nutritional and Metabolic,Other Endocrine/Metabolic/Nutritional ,Not reportable as unplanned hospitalization
+,Nutritional and Metabolic,Anemia,Not reportable as unplanned hospitalization
+,Nutritional and Metabolic,Thyroid disease,Not reportable as unplanned hospitalization
+,,,
+,Liver,,
+,Liver,End-Stage Liver Disease  ,Not reportable as unplanned hospitalization
+,Liver,Cirrhosis of Liver  ,Not reportable as unplanned hospitalization
+,Liver,Chronic Hepatitis  ,Internal infections
+,Liver,Acute Liver Failure/Disease  ,Not reportable as unplanned hospitalization
+,Liver,Other Hepatitis and Liver Disease ,Internal infections
+,Liver,"Gallbladder and Biliary Tract Disease, including infectious diseases of the gallbladder/biliary",Internal infections
+,,,
+,Gastrointestinal,,
+,Gastrointestinal,Intestinal Obstruction/Perforation ,Not reportable as unplanned hospitalization
+,Gastrointestinal,Pancreatic Disease  ,Not reportable as unplanned hospitalization
+,Gastrointestinal,Inflammatory Bowel Disease  ,Not reportable as unplanned hospitalization
+,Gastrointestinal,Peptic Ulcer/Hemorrhage/Other Specified GI,Not reportable as unplanned hospitalization
+,Gastrointestinal,Appendicitis  ,Not reportable as unplanned hospitalization
+,Gastrointestinal,Other Gastrointestinal Disorders  ,Not reportable as unplanned hospitalization
+,,,
+,Musculoskeletal and Connective Tissue,,
+,Musculoskeletal and Connective Tissue,Bone/Joint/Muscle Infect/Necrosis  ,Internal infections
+,Musculoskeletal and Connective Tissue,Rheumatoid Arthritis/Inflammed Connective Tissue  ,Not reportable as unplanned hospitalization
+,Musculoskeletal and Connective Tissue,Disorders of Vertebrae/Spinal Discs ,Not reportable as unplanned hospitalization
+,Musculoskeletal and Connective Tissue,Osteoarthritis of Hip or Knee  ,Not reportable as unplanned hospitalization
+,Musculoskeletal and Connective Tissue,Osteoporosis and Other Bone/Cartilage ,Not reportable as unplanned hospitalization
+,Musculoskeletal and Connective Tissue,Congenital/Developmental Skeletal/Connective Tissue  ,Not reportable as unplanned hospitalization
+,Musculoskeletal and Connective Tissue,Other Musculoskeletal/Connective Tissue  ,Not reportable as unplanned hospitalization
+,,,
+,Hematological,,
+,Hematological,Severe Hematological Disorders  ,Not reportable as unplanned hospitalization
+,Hematological,Disorders of Immunity  ,Not reportable as unplanned hospitalization
+,Hematological,Coagulation defects/Other Specified Hematologic,Not reportable as unplanned hospitalization
+,Hematological,"Iron Deficiency, Other/Unspecified Anemias/Blood ",Reportable as nutritional deficiency
+,,,
+,Cognitive Disorders,,
+,Cognitive Disorders,Delirium and Encephalopathy,Not reportable as unplanned hospitalization
+,Cognitive Disorders,Dementia/Cerebral Degeneration,Not reportable as unplanned hospitalization
+,Cognitive Disorders,Nonpsychotic Organic Brain Syndrome/Conditions,Not reportable as unplanned hospitalization
+,,,
+,Substance Abuse,,
+,Substance Abuse,Drug/Alcohol Psychosis,Not reportable as unplanned hospitalization
+,Substance Abuse,Drug/Alcohol Dependence,Not reportable as unplanned hospitalization
+,Substance Abuse,"Drug/Alcohol Abuse, without Dependence",Not reportable as unplanned hospitalization
+,,,
+,Mental,,
+,Mental,Schizophrenia,Psychiatric
+,Mental,"Major Depressive, Bipolar, Paranoid",Psychiatric
+,Mental,Reactive and Unspecified Psychosis,Psychiatric
+,Mental,Personality Disorders,Psychiatric
+,Mental,Depression,Psychiatric
+,Mental,Anxiety Disorders,Psychiatric
+,Mental,Other Psychiatric Disorders ,Psychiatric
+,,,
+,Neurologicalogical,,
+,Neurologicalogical,"Quadriplegia, Other Extens Paralysis",Not reportable as unplanned hospitalization
+,Neurologicalogical,Paraplegia,Not reportable as unplanned hospitalization
+,Neurologicalogical,Spinal Cord Disorders/Injuries,Not reportable as unplanned hospitalization
+,Neurologicalogical,Muscular Dystrophy,Not reportable as unplanned hospitalization
+,Neurologicalogical,Polyneuropathy,Not reportable as unplanned hospitalization
+,Neurologicalogical,Multiple Sclerosis,Not reportable as unplanned hospitalization
+,Neurologicalogical,Parkinson's and Huntington's Disease,Not reportable as unplanned hospitalization
+,Neurologicalogical,Seizure Disorders and Convulsions,Seizure-Related
+,Neurologicalogical,"Coma, Brain Compression/Anoxic Damage",Not reportable as unplanned hospitalization
+,Neurologicalogical,Mononeuropathy/Other Neurological Condition/Injury,Not reportable as unplanned hospitalization
+,,,
+,Cardio-Respiratory Arrest,,
+,Cardio-Respiratory Arrest,Respiratory Depend/Tracheostomy Status,Respiratory illness
+,Cardio-Respiratory Arrest,Respiratory Arrest,Respiratory illness
+,Cardio-Respiratory Arrest,Cardio-Respiratory Failure and Shock,Cardiac-Related
+,,,
+,Heart,,
+,Heart,Congestive Heart Failure,Cardiac-Related
+,Heart,Acute Myocardial Infarction,Cardiac-Related
+,Heart,Unstable Angina/Other acute Ischemic Heart,Cardiac-Related
+,Heart,Angina Pectoris/Old Myocardial Infarction,Cardiac-Related
+,Heart,Coronary Athero/Other Chron Ischemic Heart,Cardiac-Related
+,Heart,"Heart Infection/Inflammation, Excluding Rheumatic",Cardiac-Related
+,Heart,Valvular and Rheumatic Heart Disease,Cardiac-Related
+,Heart,Major Congenital Cardiac/Circulatory Defect,Cardiac-Related
+,Heart,Other Congenital Heart/Circulatory,Cardiac-Related
+,Heart,Hypertensive Heart/Renal/Encephalopathy,Cardiac-Related
+,Heart,Hypertensive Heart Disease,Cardiac-Related
+,Heart,Hypertension,Cardiac-Related
+,Heart,Specified Heart Arrhythmias,Cardiac-Related
+,Heart,Other Heart Rhythm/Conduction Disease,Cardiac-Related
+,Heart,Other and Unspecified Heart Disease ,Cardiac-Related
+,,,
+,Cerebro-Vascular,,
+,Cerebro-Vascular,Cerebral Hemorrhage,Not reportable as unplanned hospitalization
+,Cerebro-Vascular,Ischemic or Unspecified Stroke,Not reportable as unplanned hospitalization
+,Cerebro-Vascular,Precerebral Artery Occlusion/Trans Cerebral Ischemia,Not reportable as unplanned hospitalization
+,Cerebro-Vascular,Cerebral Atherosclerosis and Aneurysm ,Not reportable as unplanned hospitalization
+,Cerebro-Vascular,"Cerebrovascular Disease, Unspecified  ",Not reportable as unplanned hospitalization
+,Cerebro-Vascular,Hemiplegia/Hemiparesis  ,Not reportable as unplanned hospitalization
+,Cerebro-Vascular,"Cerebral Palsy, Other Paralytic Syndromes",Not reportable as unplanned hospitalization
+,Cerebro-Vascular,Speech/Language/Cognitive/Perceptual Defecit ,Not reportable as unplanned hospitalization
+,Cerebro-Vascular,Cerebrovascular Late Effects/Unspecified,Not reportable as unplanned hospitalization
+,,,
+,Vascular,,
+,Vascular,Peripheral Vascular Disease with Complications,Not reportable as unplanned hospitalization
+,Vascular,Peripheral Vascular Disease  ,Not reportable as unplanned hospitalization
+,Vascular,Other Circulatory Disease  ,Not reportable as unplanned hospitalization
+,,,
+,Lung ,,
+,Lung ,Cystic Fibrosis  ,Respiratory
+,Lung ,Chronic Obstructive Pulmonary Disease  ,Respiratory
+,Lung ,Fibrosis of Lung/Other Chronic Lung,Respiratory
+,Lung ,Asthma  ,Respiratory
+,Lung ,Aspiration/Specified Bacterial Pneumonias  ,Respiratory
+,Lung ,Pneumococcal Pneumonia/Empyema/Lung Abcess,Respiratory
+,Lung ,"Viral/Unspec Pneumonia, Pleurisy  ",Respiratory
+,Lung ,Pleural Effusion/Pneumothorax  ,Respiratory
+,Lung ,Other Lung Disorders  ,Respiratory
+,,,
+,Eyes,,
+,Eyes,Legally Blind  ,Not reportable as unplanned hospitalization
+,Eyes,Major Eye Infections/Inflammations  ,Internal infections
+,Eyes,Retinal Detachment  ,Not reportable as unplanned hospitalization
+,Eyes,Proliferative Diabetic Retinopathy/Vitreous Hemorrhage,Not reportable as unplanned hospitalization
+,Eyes,Diabetic/Other Vascular Retinopathies  ,Diabetes
+,Eyes,"Retinal, Excluding Detachment/Vascular Retinopathies",Not reportable as unplanned hospitalization
+,Eyes,Glaucoma  ,Not reportable as unplanned hospitalization
+,Eyes,Cataract  ,Not reportable as unplanned hospitalization
+,Eyes,Other Eye Disorders  ,Not reportable as unplanned hospitalization
+,,,
+," Ears, Nose, and Throat",,
+," Ears, Nose, and Throat","Significant Ear, Nose, and Throat ",Not reportable as unplanned hospitalization
+," Ears, Nose, and Throat",Hearing Loss  ,Not reportable as unplanned hospitalization
+," Ears, Nose, and Throat","Other Ear, Nose, Throat, and Mouth",Internal infections
+,,,
+,Urinary System ,,
+,Urinary System ,Kidney Transplant Status  ,Not reportable as unplanned hospitalization
+,Urinary System ,End Stage Renal Disease (Medicare eligible),Not reportable as unplanned hospitalization
+,Urinary System ,Dialysis Status  ,Not reportable as unplanned hospitalization
+,Urinary System ,Renal Failure  ,Not reportable as unplanned hospitalization
+,Urinary System ,Nephritis  ,Internal infections
+,Urinary System ,Urinary Obstruction and Retention  ,Not reportable as unplanned hospitalization
+,Urinary System ,Incontinence  ,Not reportable as unplanned hospitalization
+,Urinary System ,Urinary Tract Infection  ,Internal infections
+,Urinary System ,Other Urinary Tract Disorders  ,Not reportable as unplanned hospitalization
+,,,
+,Genital System,,
+,Genital System,Female Infertility  ,Not reportable as unplanned hospitalization
+,Genital System,Pelvic Inflammation/Other Specified Female Genital,Internal infections
+,Genital System,Other Female Genital Disorders  ,Not reportable as unplanned hospitalization
+,Genital System,Male Genital Disorders  ,Not reportable as unplanned hospitalization
+,,,
+,Pregnancy-Related ,,
+,Pregnancy-Related ,Ectopic Pregnancy  ,Not reportable as unplanned hospitalization
+,Pregnancy-Related ,Miscarriage/Abortion  ,Not reportable as unplanned hospitalization
+,Pregnancy-Related ,Completed Pregnancy with Major Complications  ,Not reportable as unplanned hospitalization
+,Pregnancy-Related ,Completed Pregnancy With Complications  ,Not reportable as unplanned hospitalization
+,Pregnancy-Related ,Completed Pregnancy Without Complications  ,Not reportable as unplanned hospitalization
+,Pregnancy-Related ,Uncompleted Pregnancy With Complications  ,Not reportable as unplanned hospitalization
+,Pregnancy-Related ,Uncompleted Pregnancy with No or Minor Complication,Not reportable as unplanned hospitalization
+,,,
+,Skin and Subcutaneous ,,
+,Skin and Subcutaneous ,Decubitus Ulcer of Skin  ,Wound/Skin care
+,Skin and Subcutaneous ,"Chronic Ulcer of Skin, Excluding Decubitus  ",Wound/Skin care
+,Skin and Subcutaneous ,Extensive Third-Degree Burns  ,Wound/Skin care
+,Skin and Subcutaneous ,Other Third-Degree and Extensive Burns  ,Wound/Skin care
+,Skin and Subcutaneous ,"Cellulitis, Local Skin Infection  ",Wound/Skin care
+,Skin and Subcutaneous ,Other Dermatological Disorders  ,Wound/Skin care
+,,,
+,"Injury, Poisoning, Complications",,
+,"Injury, Poisoning, Complications",Severe Head Injury  ,Not reportable as unplanned hospitalization
+,"Injury, Poisoning, Complications",Major Head Injury  ,Not reportable as unplanned hospitalization
+,"Injury, Poisoning, Complications",Concussion or Unspec Head Injury  ,Not reportable as unplanned hospitalization
+,"Injury, Poisoning, Complications",Vertebral Fracture without Spinal Cord Injury,Not reportable as unplanned hospitalization
+,"Injury, Poisoning, Complications",Hip Fracture/Dislocation  ,Not reportable as unplanned hospitalization
+,"Injury, Poisoning, Complications","Major Fracture, Excluding Skull/Vertebrae/Hip  ",Not reportable as unplanned hospitalization
+,"Injury, Poisoning, Complications",Internal Injuries  ,Not reportable as unplanned hospitalization
+,"Injury, Poisoning, Complications",Traumatic Amputation  ,Not reportable as unplanned hospitalization
+,"Injury, Poisoning, Complications",Other Injuries  ,Not reportable as unplanned hospitalization
+,"Injury, Poisoning, Complications",Poisonings and Allegic Reactions  ,Not reportable as unplanned hospitalization
+,"Injury, Poisoning, Complications",Major Complications of Medical Care/Trauma  ,Not reportable as unplanned hospitalization
+,"Injury, Poisoning, Complications",Other Complications of Medical Care  ,Not reportable as unplanned hospitalization
+,,,
+,"Symptoms, Signs and Ill-Defined Conditions",,
+,"Symptoms, Signs and Ill-Defined Conditions","Major Symptoms, Abnormalities  ",Not reportable as unplanned hospitalization
+,"Symptoms, Signs and Ill-Defined Conditions","Minor Symptoms, Signs, Findings  ",Not reportable as unplanned hospitalization
+,,,
+,Neonates,,
+,Neonates,Extremely Low Birthweight Neonates  ,Not reportable as unplanned hospitalization
+,Neonates,Very Low Birthweight Neonates  ,Not reportable as unplanned hospitalization
+,Neonates,Serious Perinatal Problem Affecting Newborn  ,Not reportable as unplanned hospitalization
+,Neonates,Other Perinatal Problems Affecting Newborn  ,Not reportable as unplanned hospitalization
+,Neonates,"Normal, Single Birth  ",Not reportable as unplanned hospitalization
+,,,
+,"Transplants, Openings, Other V-Codes",,
+,"Transplants, Openings, Other V-Codes",Major Organ Transplant (procedure)  ,Not reportable as unplanned hospitalization
+,"Transplants, Openings, Other V-Codes",Major Organ Transplant Status  ,Not reportable as unplanned hospitalization
+,"Transplants, Openings, Other V-Codes",Other Organ Transplant/Replacement  ,Not reportable as unplanned hospitalization
+,"Transplants, Openings, Other V-Codes",Artificial Openings for Feeding/Elimination  ,Not reportable as unplanned hospitalization
+,"Transplants, Openings, Other V-Codes",Amputation Status/Lower Limb/Amputation Complete,Not reportable as unplanned hospitalization
+,"Transplants, Openings, Other V-Codes","Amputation Status, Upper Limb  ",Not reportable as unplanned hospitalization
+,,,
+,Screening/History,,
+,Screening/History,Post-Surgical States/Aftercare/Elective ,Not reportable as unplanned hospitalization
+,Screening/History,Radiation Therapy  ,Not reportable as unplanned hospitalization
+,Screening/History,Chemotherapy  ,Not reportable as unplanned hospitalization
+,Screening/History,Rehabilitation  ,Not reportable as unplanned hospitalization
+,Screening/History,Screening/Observation/Special Exams  ,Not reportable as unplanned hospitalization
+,Screening/History,History of Disease  ,Not reportable as unplanned hospitalization
