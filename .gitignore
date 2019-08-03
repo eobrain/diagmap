@@ -3,4 +3,5 @@
 /node_modules
 /src/data.js
 /public/main.js
-
+/.firebaserc
+/.firebase
