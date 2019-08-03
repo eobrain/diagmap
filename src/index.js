@@ -40,7 +40,7 @@ search.oninput = () => {
     }
     results.insertAdjacentHTML(
       'beforeend',
-      `<li>${row[1]} <em>(${row[0]}, ${row[2]})</em><!--${score}--></li>`
+      `<li>${row[1]} <div><em>(${row[0]}, ${row[2]})</em></div><!--${score}--></li>`
     )
     prevScore = score
   })
