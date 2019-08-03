@@ -1,4 +1,7 @@
-const index = window.elasticlunr(function () {
+const elasticlunr = require('elasticlunr')
+const { data } = require('./data.js')
+
+const index = elasticlunr(function () {
   this.addField('group')
   this.addField('diagnoses')
   this.addField('category')
@@ -6,7 +9,7 @@ const index = window.elasticlunr(function () {
 })
 
 const table = document.getElementById('data')
-window.diagmapData.forEach((row, id) => {
+data.forEach((row, id) => {
   index.addDoc({
     id: id,
     group: row[0],
@@ -21,7 +24,7 @@ search.oninput = () => {
     i === 0 || tr.remove())
 
   index.search(search.value).forEach((result) => {
-    const row = window.diagmapData[result.ref]
+    const row = data[result.ref]
     const tr = document.createElement('tr')
     row.forEach((cell) => {
       const td = document.createElement('td')

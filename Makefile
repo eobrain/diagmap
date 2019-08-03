@@ -4,11 +4,9 @@
 	standard $<
 	touch $@
 
-all: data.ok app.ok
+public/main.js: src/index.ok src/data.ok webpack.config.ok
+	node_modules/webpack/bin/webpack.js
 
-data.js: data.csv csv2js.ok
+src/data.js: data.csv csv2js.ok
 	node csv2js.js > $@
 	standard --fix $@
-
-
-

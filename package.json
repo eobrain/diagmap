@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "csv-parser": "^2.3.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "elasticlunr": "^0.9.5"
+  }
+}

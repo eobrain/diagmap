@@ -4,7 +4,7 @@ const fs = require('fs')
 const q = (s) => s.includes("'") ? `"${s.trim()}"` : `'${s.trim()}'`
 
 let nextIsHeader = true
-console.log('window.diagmapData = [')
+console.log('exports.data = [')
 fs.createReadStream('data.csv')
   .pipe(csv(['_', 'g', 'd', 'c']))
   .on('data', (data) => {

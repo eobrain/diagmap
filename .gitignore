@@ -1,4 +1,6 @@
 *~
 *.ok
 /node_modules
-/data.js
+/src/data.js
+/public/main.js
+
