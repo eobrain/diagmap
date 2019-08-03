@@ -8,7 +8,6 @@ const index = elasticlunr(function () {
   this.setRef('id')
 })
 
-const table = document.getElementById('data')
 data.forEach((row, id) => {
   index.addDoc({
     id: id,
@@ -18,19 +17,32 @@ data.forEach((row, id) => {
   })
 })
 
-const search = document.getElementById('search')
-search.oninput = () => {
-  document.querySelectorAll('tr').forEach((tr, i) =>
-    i === 0 || tr.remove())
+document.getElementById('diagmap').insertAdjacentHTML(
+  'afterend',
+  '<div id="diagmap-root">' +
+  '<input id="search" placeholder="enter search words"></input>' +
+  '<ol id="diagmap-results"/>' +
+  '</div>'
+)
 
+const search = document.getElementById('search')
+const results = document.getElementById('diagmap-results')
+search.oninput = () => {
+  results.innerHTML = ''
+  results.insertAdjacentHTML('beforeend', '<hr/>')
+
+  let prevScore = 0
   index.search(search.value).forEach((result) => {
     const row = data[result.ref]
-    const tr = document.createElement('tr')
-    row.forEach((cell) => {
-      const td = document.createElement('td')
-      td.appendChild(document.createTextNode(cell))
-      tr.appendChild(td)
-    })
-    table.appendChild(tr)
+    const score = result.score
+    if (score < 0.7 * prevScore) {
+      results.insertAdjacentHTML('beforeend', '<hr/>')
+    }
+    results.insertAdjacentHTML(
+      'beforeend',
+      `<li>${row[1]} <em>(${row[0]}, ${row[2]})</em><!--${score}--></li>`
+    )
+    prevScore = score
   })
+  results.insertAdjacentHTML('beforeend', '<hr/>')
 }
