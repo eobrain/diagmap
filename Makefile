@@ -1,5 +1,14 @@
-data.js: ok data.csv
-	node csv2js.js > $@
+.SUFFIXES: .js .ok
 
-ok: csv2js.js
-	standard
+.js.ok:
+	standard $<
+	touch $@
+
+all: data.ok app.ok
+
+data.js: data.csv csv2js.ok
+	node csv2js.js > $@
+	standard --fix $@
+
+
+

@@ -1,3 +1,4 @@
 *~
+*.ok
 /node_modules
 /data.js
