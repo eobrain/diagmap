@@ -16,7 +16,7 @@ window.diagmapData.forEach((row, id) => {
 })
 
 const search = document.getElementById('search')
-search.onchange = () => {
+search.oninput = () => {
   document.querySelectorAll('tr').forEach((tr, i) =>
     i === 0 || tr.remove())
 
