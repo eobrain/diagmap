@@ -8,12 +8,14 @@ const index = elasticlunr(function () {
   this.setRef('id')
 })
 
+const tokenize = (s) => s.replace(/\W/g, ' ')
+
 data.forEach((row, id) => {
   index.addDoc({
     id: id,
-    group: row[0],
-    diagnoses: row[1],
-    category: row[2]
+    group: tokenize(row[0]),
+    diagnoses: tokenize(row[1]),
+    category: tokenize(row[2])
   })
 })
 
