@@ -10,10 +10,11 @@ fs.createReadStream('data.csv')
   .on('data', (data) => {
     if (data.g && data.d && data.c) {
       if (!nextIsHeader) {
-        const c = data.c.startsWith('Not reportable')
-          ? data.c
-          : `Reportable as ${data.c}`
-        console.log(`[${q(data.g)}, ${q(data.d)}, ${q(c)}],`)
+        if (!data.c.startsWith('Not reportable') &&
+            !data.c.startsWith('Reportable')) {
+          data.c = `Reportable as ${data.c}`
+        }
+        console.log(`[${q(data.g)}, ${q(data.d)}, ${q(data.c)}],`)
       }
       nextIsHeader = false
     }
