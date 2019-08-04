@@ -29,11 +29,14 @@ const search = document.getElementById('search')
 const results = document.getElementById('diagmap-results')
 search.oninput = () => {
   results.innerHTML = ''
+  const query = search.value
+  if (!query.trim()) {
+    return
+  }
   results.insertAdjacentHTML('beforeend', '<hr/>')
 
   let prevScore = 0
   let noResult = true
-  const query = search.value
   index.search(query).forEach((result) => {
     const row = data[result.ref]
     const score = result.score
