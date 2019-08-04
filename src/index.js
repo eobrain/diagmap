@@ -32,7 +32,9 @@ search.oninput = () => {
   results.insertAdjacentHTML('beforeend', '<hr/>')
 
   let prevScore = 0
-  index.search(search.value).forEach((result) => {
+  let noResult = true
+  const query = search.value
+  index.search(query).forEach((result) => {
     const row = data[result.ref]
     const score = result.score
     if (score < 0.7 * prevScore) {
@@ -40,9 +42,15 @@ search.oninput = () => {
     }
     results.insertAdjacentHTML(
       'beforeend',
-      `<li>${row[1]} <div><em>(${row[0]}, ${row[2]})</em></div><!--${score}--></li>`
+      `<li>${row[1]} <em>(${row[0]})</em> <div><strong>${row[2]}</strong></div><!--${score}--></li>`
     )
+    noResult = false
     prevScore = score
   })
+  if (noResult) {
+    results.insertAdjacentHTML(
+      'beforeend',
+      `<p>Nothing found for "${query}"</p>`)
+  }
   results.insertAdjacentHTML('beforeend', '<hr/>')
 }
