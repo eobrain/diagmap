@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "bajel": "^0.3.0",
     "csv-parser": "^2.3.0",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
