@@ -1,0 +1,31 @@
+["%.ok"]
+deps = ["%.js"]
+exec = """
+	standard $<
+	touch $@
+	"""
+
+["public/main.js"]
+deps = ["src/index.ok",  "src/data.ok",  "webpack.config.ok"]
+exec = "npx webpack"
+
+["src/data.js"]
+deps = ["data.csv", "csv2js.ok"]
+exec = """
+	node csv2js.js > $@
+	standard --fix $@
+	"""
+
+[serve]
+deps = ["public/main.js"]
+exec = """
+	cd public
+	python -m SimpleHTTPServer
+	"""
+
+[deploy]
+deps = ["public/main.js"]
+exec = "firebase deploy"
+
+[clean]
+exec = "rm -f src/data.js public/main.js *.ok src/*.ok"
